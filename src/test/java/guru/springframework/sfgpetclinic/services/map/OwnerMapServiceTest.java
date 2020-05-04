@@ -38,7 +38,7 @@ class OwnerMapServiceTest {
         @BeforeEach
         void setUp() {
             PetType petType1 = new PetType(1L, "Dog");
-            PetType petType2 = new PetType(1L, "Cat");
+            PetType petType2 = new PetType(2L, "Cat");
             petTypeService.save(petType1);
             petTypeService.save(petType2);
         }
